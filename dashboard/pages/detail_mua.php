@@ -167,7 +167,13 @@ if ($sql && mysqli_num_rows($sql) > 0) {
                             <div class="modal-body">
                                 <div class="form-group">
                                     <label for="gambar" class="form-label">Foto</label>
-                                    <input type="file" id="gambar" name="gambar" class="form-control" required>
+                                    <input type="file"
+                                        id="gambar"
+                                        name="gambar[]"
+                                        class="form-control"
+                                        accept="image/*"
+                                        multiple
+                                        required>
                                 </div>
                                 <div class="form-group mt-2">
                                     <label for="deskripsi" class="form-label">Deskripsi Singkat</label>

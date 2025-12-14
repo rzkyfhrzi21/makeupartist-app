@@ -39,7 +39,7 @@ $page = $_GET['page'] ?? 'dashboard'; // Default ke 'dashboard' jika tidak ada p
 
     <title><?= ucfirst($page); ?> - Panel Admin Mua Yola</title>
 
-    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 
     <?php include 'pages/css.php'; ?>
 </head>

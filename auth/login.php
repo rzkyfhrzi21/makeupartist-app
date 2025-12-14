@@ -128,9 +128,9 @@ $usernameLogin = isset($_GET['username']) ? $_GET['username'] : '';
                                 <a href="register" class="font-bold text-danger">Daftar Sekarang</a>
                             </p>
                         </div>
-                        <div class="text-center mt-2">
+                        <!-- <div class="text-center mt-2">
                             <a href="../index" class="text-muted small"><i class="bi bi-arrow-left"></i> Kembali ke Beranda</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

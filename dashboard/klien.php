@@ -36,7 +36,7 @@ $page = $_GET['page'] ?? 'dashboard';
     <meta name="robots" content="noindex, nofollow">
     <title><?= ucfirst($page); ?> - Dashboard Klien | MUA Yola</title>
 
-    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <?php include 'pages/css.php'; ?>
 </head>
 

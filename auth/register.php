@@ -147,11 +147,11 @@ $nama_userLogin = isset($_GET['nama_user']) ? $_GET['nama_user'] : '';
                                 <a href="login" class="font-bold text-danger">Masuk di sini</a>.
                             </p>
                         </div>
-                        <div class="text-center mt-2">
+                        <!-- <div class="text-center mt-2">
                             <a href="../index" class="text-muted small">
                                 <i class="bi bi-arrow-left"></i> Kembali ke Beranda
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
